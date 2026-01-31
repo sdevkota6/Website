@@ -162,27 +162,4 @@
     @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl;
   }
 
-  <style>
-  #chat-tooltip {
-  position: fixed;
-  bottom: 90px;
-  right: 20px;
-  background: #111;
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 20px;
-  font-size: 13px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.3s ease;
-  z-index: 9999;
-  pointer-events: none;
-}
-
-#chat-tooltip.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-  </style>
 }
